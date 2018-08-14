@@ -37,6 +37,7 @@ func main() {
 	validadeURL(*url)
 
 	start := time.Now()
+	crawler.RandomAgents()
 	fmt.Println(start.Format("3:04PM"))
 	utils.Banner()
 	fmt.Println(utils.Yellow("[+] Init resolvers scan modules.."))
